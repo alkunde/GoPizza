@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components/native';
 
 import theme from './src/theme';
 
-import { SignIn } from '@screens/SignIn';
+import { SignIn } from './src/screens/SignIn';
 
 export default function App() {
 

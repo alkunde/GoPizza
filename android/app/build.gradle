@@ -132,7 +132,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.gopizza"
+        applicationId "br.com.mobiletkbrazil.gopizza"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

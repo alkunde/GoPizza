@@ -1,4 +1,4 @@
-package com.gopizza;
+package br.com.mobiletkbrazil.gopizza;
 
 import android.os.Build;
 import android.os.Bundle;

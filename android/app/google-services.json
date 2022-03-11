@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "459800427678",
+    "project_id": "gopizza-7affe",
+    "storage_bucket": "gopizza-7affe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459800427678:android:465247961e8a6051f94f8f",
+        "android_client_info": {
+          "package_name": "br.com.mobiletkbrazil.gopizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459800427678-0s2ov3k0n1inme0pjm7hrscnfl6b6nqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.mobiletkbrazil.gopizza",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "459800427678-0ql495o3mac44tjvi6n3r5mi2vrtge83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI8cED3hELFmoZSugrWx3mgqE4D5dHhJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459800427678-0ql495o3mac44tjvi6n3r5mi2vrtge83.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "459800427678-2tvli10fbtcm8c68qsatnd68f445114r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.mobiletkbrazil.gopizza"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

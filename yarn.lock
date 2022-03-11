@@ -3243,10 +3243,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:~2.13.0":
-  version: 2.13.0
-  resolution: "commander@npm:2.13.0"
-  checksum: b23e2de09428e3852e881c3e265c70438ca038c834744479b72dde0bbc570f45c7f1ea2feea27fbe26382d2cbf6fb7b1963d7dee2c08b3f4adc95dbc45d977f5
+"commander@npm:~2.14.1":
+  version: 2.14.1
+  resolution: "commander@npm:2.14.1"
+  checksum: 26bd49febeac8efabb7488fb5a4a2480b04bc4c4eef3c50da93eead72959f7a5232d003deda5b9761937205721274e80108f6d1d2b45ae7a8387cfb92031084e
   languageName: node
   linkType: hard
 
@@ -3578,9 +3578,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.76":
-  version: 1.4.80
-  resolution: "electron-to-chromium@npm:1.4.80"
-  checksum: 3dc3d1504b991243759c633b42b0f0a88860d91c23af0b3b5d510f277d2b1fb73de0b25c502f00717f4c67386a3d599f596a6eb9ecdc95414ff8b559636b4f64
+  version: 1.4.81
+  resolution: "electron-to-chromium@npm:1.4.81"
+  checksum: 25284319767536f57b72dc3929e5cea13603dc2ff8e4e2adbb057fa6484b81ca6b8437066cc9f1272af369dd29d550b492bd1c08bb7fc546c25ed3f4bfedce5d
   languageName: node
   linkType: hard
 
@@ -3841,11 +3841,11 @@ __metadata:
   linkType: hard
 
 "expo-linear-gradient@npm:^11.0.3":
-  version: 11.0.3
-  resolution: "expo-linear-gradient@npm:11.0.3"
+  version: 11.2.0
+  resolution: "expo-linear-gradient@npm:11.2.0"
   peerDependencies:
     expo: "*"
-  checksum: 0728a0ef16210f0998b0fd309880e411f873542ca8878f069adfb8356f9e6bc808a00fef2aec8094be1bbdb094a359c9a281abd0894cd601991c3e82925704de
+  checksum: 049a88b4cb8e7d64440c8bb694f576b4c24af2e9271f26999f1f4cdda790b3a437d68a69005a486ab960a80b6ec074923ae9fa10feeeb8a60b0c265787a52fee
   languageName: node
   linkType: hard
 
@@ -4402,7 +4402,8 @@ __metadata:
     react: 17.0.1
     react-dom: 17.0.1
     react-native: 0.64.3
-    react-native-gesture-handler: ^2.3.1
+    react-native-gesture-handler: ~2.1.0
+    react-native-iphone-x-helper: ^1.3.1
     react-native-web: 0.17.1
     styled-components: ^5.3.3
     typescript: ~4.3.5
@@ -6705,12 +6706,12 @@ __metadata:
   linkType: hard
 
 "react-devtools-core@npm:^4.6.0":
-  version: 4.23.0
-  resolution: "react-devtools-core@npm:4.23.0"
+  version: 4.24.0
+  resolution: "react-devtools-core@npm:4.24.0"
   dependencies:
     shell-quote: ^1.6.1
     ws: ^7
-  checksum: 16c020149171c18039f366f43e305fdf5ec5991a40841e0ef83d5360b41c9a52cb072f22915b35732dd767954adbd65b6baf4f7f1bbcc785d9ffeb7f42bc1bb4
+  checksum: c9e21ff2621447a6de51d4a350f3859e8077634f8be327f006d8da73dba349e78432ef910e432f066c615938fed697231ed3daee8f9eae049004c14ebac85625
   languageName: node
   linkType: hard
 
@@ -6752,19 +6753,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "react-native-gesture-handler@npm:2.3.1"
+"react-native-gesture-handler@npm:~2.1.0":
+  version: 2.1.3
+  resolution: "react-native-gesture-handler@npm:2.1.3"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
     invariant: ^2.2.4
     lodash: ^4.17.21
     prop-types: ^15.7.2
+  checksum: 479386ee9814f2e72ebc1cf9494f4a74f3652e87bd79ccf5d78c3dea455d924b3b41016dce3da466155304cd4c1dac019907ca2667e1d9da42ab3f28d4362e29
+  languageName: node
+  linkType: hard
+
+"react-native-iphone-x-helper@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "react-native-iphone-x-helper@npm:1.3.1"
   peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 0e65a4de5170cfaf6bcada19301ac5e2d80fc29eeb97c27ad122c463f23d52eff88a4cec32d56e83bb8cc79813e12bc594699a46d4b5e03ee3cc4549308b4957
+    react-native: ">=0.42.0"
+  checksum: 024376646009a966e33e12fc2358751830818b0fb73b1c601a64eb5e490d2dc43eec23668991b985a8c412a84d087f20eb45bb9b593567c08b66e741b7bddda5
   languageName: node
   linkType: hard
 
@@ -8005,14 +8012,14 @@ __metadata:
   linkType: hard
 
 "uglify-es@npm:^3.1.9":
-  version: 3.3.9
-  resolution: "uglify-es@npm:3.3.9"
+  version: 3.3.10
+  resolution: "uglify-es@npm:3.3.10"
   dependencies:
-    commander: ~2.13.0
+    commander: ~2.14.1
     source-map: ~0.6.1
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: f2de133ba71f05aca442db2c31a2f2614201e5b540948f022f5b53cd39b6b1b43a7db7cc2aa9917383bbb26e8043947fce35867cd1edcf2444854cb7fae0fa99
+  checksum: 22b028b6454c4d684c76617e9ac5b8da0e56611b32cd5d89e797225d6f1022f697a5642d9084319436df3aed462225749f8287d37bf67dccda1ac9d0365dd950
   languageName: node
   linkType: hard
 

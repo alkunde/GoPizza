@@ -10,6 +10,7 @@ import theme from './src/theme';
 
 import { SignIn } from '@screens/SignIn';
 import { Product } from '@screens/Product';
+import { Home } from '@screens/Home';
 
 export default function App() {
 
@@ -27,7 +28,7 @@ export default function App() {
       <StatusBar style='light' translucent backgroundColor='transparent' />
 
       <AuthProvider>
-        <Product />
+        <Home />
       </AuthProvider>
     </ThemeProvider>
   );

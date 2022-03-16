@@ -1,8 +1,16 @@
 {
   "expo": {
-    "name": "gopizza",
+    "name": "Go Pizza",
     "slug": "gopizza",
     "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "br.com.mobiletkbrazil.gopizza",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "br.com.mobiletkbrazil.gopizza",
+      "versionCode": 1
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
